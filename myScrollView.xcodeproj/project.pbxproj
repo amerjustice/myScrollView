@@ -13,6 +13,7 @@
 		9712CB7F1CEA39D50071B375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9712CB7D1CEA39D50071B375 /* Main.storyboard */; };
 		9712CB811CEA39D50071B375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9712CB801CEA39D50071B375 /* Assets.xcassets */; };
 		9712CB841CEA39D50071B375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9712CB821CEA39D50071B375 /* LaunchScreen.storyboard */; };
+		9712CB8D1CEA41850071B375 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712CB8C1CEA41850071B375 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9712CB801CEA39D50071B375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9712CB831CEA39D50071B375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9712CB851CEA39D50071B375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9712CB8B1CEA41850071B375 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		9712CB8C1CEA41850071B375 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		9712CB681CEA39D50071B375 = {
 			isa = PBXGroup;
 			children = (
+				9712CB8B1CEA41850071B375 /* MyScrollView.h */,
+				9712CB8C1CEA41850071B375 /* MyScrollView.m */,
 				9712CB731CEA39D50071B375 /* myScrollView */,
 				9712CB721CEA39D50071B375 /* Products */,
 			);
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9712CB7C1CEA39D50071B375 /* ViewController.m in Sources */,
+				9712CB8D1CEA41850071B375 /* MyScrollView.m in Sources */,
 				9712CB791CEA39D50071B375 /* AppDelegate.m in Sources */,
 				9712CB761CEA39D50071B375 /* main.m in Sources */,
 			);
